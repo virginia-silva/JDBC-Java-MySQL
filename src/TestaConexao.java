@@ -8,10 +8,6 @@ public class TestaConexao {
 
 		Connection con = DriverManager.
 				getConnection("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC", "root", "1234");
-		
-		System.out.println("teste");
-
 		con.close();
 	}
-
 }
